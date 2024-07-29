@@ -59,7 +59,15 @@ p {
 .navbar-toggle .icon-bar {
   background: #006D77;
 }
+#status {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #28a745;
+}
 
+#status.error {
+  color: #dc3545;
+}
 input[type=email], input[type=password], input[type=text], input[type=tel] {
   box-shadow: none;
   height: 45px;
