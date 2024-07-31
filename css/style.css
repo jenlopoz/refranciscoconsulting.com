@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap");
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -162,6 +163,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .btn-round-full {
   border-radius: 50px;
+}
+
+.btn-round-full:hover {
+  color: white;
 }
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
